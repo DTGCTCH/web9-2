@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&display=swap');
+html{	
+	font-family: 'Noto Serif KR' !important;
+}
+
+body{	
+	margin: 0;
+	background: url(../img/tired.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section{	
+	background-color: black;
+	opacity: 0.9;
+}
+
+p{
+	font-size: 2em;
+	font-weight: 500;
+	color: white;
+	margin: auto;
+	text-align: center;
+	line-height: 1.7;
+	}
+
+a{
+	width: 100px;
+	border: 2px solid white;
+	border-radius: 4px;
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	margin: auto;
+	text-align: center;
+	display: block;
+	padding: 5px 20px 9px;
+	text-decoration: none;
+}
+
+a:hover{
+	background:white;
+	color:black;
+	transition: all 0.5s;
+}
+
+.wrapper{	
+	margin: auto;
+	padding-top: 400px;
+	padding-bottom: 400px;
+}
+
+.hovimg{
+  position: fixed;
+  width: 40rem;
+  height: 40rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -20rem; /* Negative half of height. */
+  margin-left: -20rem; /* Negative half of width. */
+  display: none;
+  z-index: 999;
+}
+
+a:hover .hovimg{
+	display: block;
+}
